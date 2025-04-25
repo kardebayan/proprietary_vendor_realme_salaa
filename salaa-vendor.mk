@@ -1784,3 +1784,22 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.oplusSensor@1.0-service \
     init.oplus.fingerprints \
     rpmbengclient_test
+
+PRODUCT_PACKAGES += \
+    vendor_lib_hw_vulkan_mt6785_so \
+    vendor_lib_hw_gatekeeper_trustonic_so \
+    vendor_lib_hw_gatekeeper_default_so \
+    vendor_lib_libdpframework_so \
+    vendor_lib_libmtk_drvb_so \
+    vendor_lib_libnir_neon_driver_so \
+    vendor_lib_libpq_prot_so \
+    vendor_lib64_hw_vulkan_mt6785_so \
+    vendor_lib64_hw_gatekeeper_trustonic_so \
+    vendor_lib64_hw_gatekeeper_default_so \
+    vendor_lib64_libdpframework_so \
+    vendor_lib64_libmcv_runtime_mtk_so \
+    vendor_lib64_libmtk_drvb_so \
+    vendor_lib64_libneuron_runtime_5_so \
+    vendor_lib64_libneuron_runtime_so \
+    vendor_lib64_libnir_neon_driver_so \
+    vendor_lib64_libpq_prot_so

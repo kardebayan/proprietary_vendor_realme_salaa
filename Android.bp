@@ -41005,3 +41005,122 @@ cc_prebuilt_binary {
     prefer: true,
     device_specific: true,
 }
+
+install_symlink {
+    name: "vendor_lib_hw_vulkan_mt6785_so",
+    soc_specific: true,
+    installed_location: "lib/hw/vulkan.mt6785.so",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib_hw_gatekeeper_trustonic_so",
+    soc_specific: true,
+    installed_location: "lib/hw/gatekeeper.trustonic.so",
+    symlink_target: "/vendor/lib/hw/libMcGatekeeper.so",
+}
+
+install_symlink {
+    name: "vendor_lib_hw_gatekeeper_default_so",
+    soc_specific: true,
+    installed_location: "lib/hw/gatekeeper.default.so",
+    symlink_target: "/vendor/lib/hw/libSoftGatekeeper.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libdpframework_so",
+    soc_specific: true,
+    installed_location: "lib/libdpframework.so",
+    symlink_target: "/vendor/lib/mt6785/libdpframework.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libmtk_drvb_so",
+    soc_specific: true,
+    installed_location: "lib/libmtk_drvb.so",
+    symlink_target: "/vendor/lib/mt6785/libmtk_drvb.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libnir_neon_driver_so",
+    soc_specific: true,
+    installed_location: "lib/libnir_neon_driver.so",
+    symlink_target: "/vendor/lib/mt6785/libnir_neon_driver.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libpq_prot_so",
+    soc_specific: true,
+    installed_location: "lib/libpq_prot.so",
+    symlink_target: "/vendor/lib/mt6785/libpq_prot.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_vulkan_mt6785_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/vulkan.mt6785.so",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_gatekeeper_trustonic_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/gatekeeper.trustonic.so",
+    symlink_target: "/vendor/lib64/hw/libMcGatekeeper.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_gatekeeper_default_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/gatekeeper.default.so",
+    symlink_target: "/vendor/lib64/hw/libSoftGatekeeper.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libdpframework_so",
+    soc_specific: true,
+    installed_location: "lib64/libdpframework.so",
+    symlink_target: "/vendor/lib64/mt6785/libdpframework.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libmcv_runtime_mtk_so",
+    soc_specific: true,
+    installed_location: "lib64/libmcv_runtime.mtk.so",
+    symlink_target: "/vendor/lib64/mt6785/libmcv_runtime.mtk.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libmtk_drvb_so",
+    soc_specific: true,
+    installed_location: "lib64/libmtk_drvb.so",
+    symlink_target: "/vendor/lib64/mt6785/libmtk_drvb.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libneuron_runtime_5_so",
+    soc_specific: true,
+    installed_location: "lib64/libneuron_runtime.5.so",
+    symlink_target: "/vendor/lib64/mt6785/libneuron_runtime.5.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libneuron_runtime_so",
+    soc_specific: true,
+    installed_location: "lib64/libneuron_runtime.so",
+    symlink_target: "/vendor/lib64/mt6785/libneuron_runtime.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libnir_neon_driver_so",
+    soc_specific: true,
+    installed_location: "lib64/libnir_neon_driver.so",
+    symlink_target: "/vendor/lib64/mt6785/libnir_neon_driver.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libpq_prot_so",
+    soc_specific: true,
+    installed_location: "lib64/libpq_prot.so",
+    symlink_target: "/vendor/lib64/mt6785/libpq_prot.so",
+}
