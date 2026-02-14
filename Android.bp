@@ -39457,6 +39457,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "android.hardware.sensors@2.1",
