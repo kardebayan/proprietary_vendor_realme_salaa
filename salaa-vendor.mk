@@ -269,7 +269,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
@@ -682,7 +681,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    android.hardware.sensors@2.X-subhal-mediatek \
     hwcomposer.mt6785 \
     sensors.mt6785 \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
@@ -1731,7 +1729,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
-    android.hardware.sensors@2.0-service.multihal-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.2-service-mediatekv2 \
     camerahalserver \
