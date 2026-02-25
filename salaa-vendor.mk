@@ -452,7 +452,6 @@ PRODUCT_PACKAGES += \
     libaal_mtk \
     libaalservice \
     libadpcmdec_mtk \
-    libaedv \
     libakm \
     libalsautils-v31 \
     libapmonitor_vendor \
